@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  padding: 1.3rem 0;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+#header .left a {
+  margin-right: 40px;
+  font-size: 13.4px;
+  color: #000;
+  transition: 0.6s;
+}
+#header .left a:hover {
+  color: #f5a637;
+}
+#header .center a {
+  margin-left: 150px;
+  font-size: 30px;
+  font-style: italic;
+  color: #000;
+}
+#header .right a {
+  margin-right: 40px;
+  font-size: 13.4px;
+  color: #000;
+  transition: 0.6s;
+}
+#header .right a:hover {
+  color: #f5a637;
+}
+
+#phone-header {
+  padding: 40px 20px;
+  font-size: 17px;
+  display: none;
+}
+#phone-header .left a {
+  color: #000;
+  font-size: 30px;
+  font-style: italic;
+}
+#phone-header a i {
+  color: #000;
+  font-size: 24px;
+}
+
+@media (max-width: 576px) {
+  #header {
+    display: none;
+  }
+  #phone-header {
+    display: block;
+  }
+  #home img {
+    width: 100%;
+  }
+  #home .text {
+    width: 100%;
+  }
+  #always p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 990px) {
+  #header {
+    display: none;
+  }
+  #phone-header {
+    display: block;
+  }
+  #home img {
+    width: 100%;
+  }
+}
+#home {
+  padding: 5rem 0;
+  background-image: url(https://yevgenysim-turkey.github.io/touche/assets/img/1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 99%;
+  height: 800px;
+  background-attachment: fixed;
+  filter: brightness(0.8);
+}
+#home .text {
+  padding: 8rem;
+  color: #fff;
+  font-size: 17px;
+}
+#home .text h2 {
+  margin-top: 30px;
+  font-size: 60px;
+}
+#home .text p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#home .text a {
+  padding: 20px 40px;
+  color: #fff;
+  border: 1px solid #f5a637;
+  font-size: 13px;
+  transition: 0.6s;
+}
+#home .text a:hover {
+  color: #f5a637;
+}
+#home .bottom .icon a {
+  margin-right: 20px;
+  font-size: 17px;
+  color: #fff;
+  transition: 0.6s;
+}
+#home .bottom .icon a:hover {
+  color: #f5a637;
+}
+#home .bottom .txt i {
+  margin-right: 15px;
+  color: #f5a637;
+  font-size: 18px;
+}
+#home .bottom .txt span {
+  color: #fff;
+}
+
+#always {
+  padding: 5rem 0;
+}
+#always .take hr {
+  width: 20%;
+  height: 3px;
+  background-color: #f5a637;
+  border: 0;
+  color: #e9ecef;
+  margin: 1rem 0;
+  opacity: 1;
+}
+#always .img img {
+  width: 250px;
+  height: 370px;
+}
+#always .last span {
+  font-style: italic;
+  font-size: 22px;
+}
+#always .last h5 {
+  font-size: 22px;
+}
+#always .last p {
+  color: rgb(103, 103, 103);
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+#beautiful {
+  padding: 4rem 0;
+}
+#beautiful span {
+  font-style: italic;
+  font-size: 22px;
+}
+#beautiful h5 {
+  font-size: 22px;
+}
+#beautiful p {
+  color: rgb(103, 103, 103);
+  font-size: 18px;
+  margin-top: 12px;
+}
+#beautiful .txt {
+  margin-top: 298px;
+  margin-right: 20px;
+}
+#beautiful .txt hr {
+  width: 18%;
+  height: 3px;
+  background-color: #f5a637;
+  border: 0;
+  color: #e9ecef;
+  margin: 1rem 0;
+  opacity: 1;
+}
+#beautiful .txt span {
+  font-style: normal;
+  font-size: 18px;
+}
+#beautiful .img img {
+  width: 280px;
+  height: 400px;
+}
+
+#enjoy {
+  padding: 2rem 0;
+  background-image: url(https://yevgenysim-turkey.github.io/touche/assets/img/19.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 99%;
+  height: 600px;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+#enjoy .text {
+  margin-left: 50px;
+}
+#enjoy .text hr {
+  width: 3%;
+  height: 3px;
+  background-color: #f5a637;
+  border: 0;
+  color: #e9ecef;
+  margin: 1rem 0;
+  opacity: 1;
+}
+
+#menu {
+  padding: 5rem 0;
+}
+#menu .top h5 {
+  font-size: 26px;
+}
+#menu .top p {
+  color: rgb(103, 103, 103);
+  font-size: 15px;
+  margin-top: 12px;
+}
+#menu .bottom {
+  margin-left: 40%;
+}
+#menu .bottom .mains a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 550;
+  margin-right: 20px;
+  position: relative;
+}
+#menu .bottom .mains a:hover::before {
+  transform: scale(1);
+}
+#menu .bottom .mains a::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f5a637;
+  transition: 0.6s;
+  transform: scale(0);
+}
+#menu .bottom .main a {
+  margin-right: 20px;
+  font-size: 14px;
+  color: rgb(103, 103, 103);
+  font-weight: 550;
+  transition: 0.6s;
+}
+#menu .bottom .main a:hover {
+  color: #000;
+}
+#menu #last {
+  align-items: center;
+  margin-top: 40px;
+}
+#menu #last .img img {
+  width: 110px;
+  height: 110px;
+  margin-right: 20px;
+}
+#menu #last .text {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#menu #last .text p {
+  color: rgb(103, 103, 103);
+  font-size: 15px;
+  margin-top: 12px;
+}
+#menu #last .span span {
+  font-size: 20px;
+}
+
+#our {
+  padding: 4rem 0;
+}
+#our .top h5 {
+  font-size: 22px;
+}
+#our .top p {
+  color: rgb(103, 103, 103);
+  font-size: 18px;
+  margin-top: 12px;
+}
+#our .bottom {
+  margin-top: 50px;
+}
+#our .bottom .box .img img {
+  width: 310px;
+  height: 190px;
+}
+#our .bottom .box .bottom {
+  margin-top: 20px;
+}
+#our .bottom .box .bottom .txt {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#our .bottom .box .bottom .text span {
+  font-size: 20px;
+}
+
+#what {
+  padding: 5rem 0;
+}
+#what .top h5 {
+  font-size: 30px;
+}
+#what .top p {
+  color: rgb(103, 103, 103);
+  font-size: 18px;
+  margin-top: 12px;
+}
+#what .bottom {
+  margin-top: 40px;
+}
+#what .bottom .icon1 {
+  margin-right: 40px;
+}
+#what .bottom .icon1 a i {
+  padding: 15px 20px;
+  border-radius: 100%;
+  background-color: rgb(199, 199, 199);
+  color: #000;
+  transition: 0.6s;
+}
+#what .bottom .icon1 a i:hover {
+  background-color: #f5a637;
+  color: #fff;
+}
+#what .bottom .text {
+  margin-right: 40px;
+}
+#what .bottom .text span {
+  color: rgb(103, 103, 103);
+  font-size: 14px;
+  margin-top: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+#what .bottom .img {
+  margin-right: 30px;
+}
+#what .bottom .img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+#what .bottom .icon2 {
+  margin-right: 40px;
+}
+#what .bottom .icon2 a i {
+  padding: 15px 20px;
+  border-radius: 100%;
+  background-color: rgb(199, 199, 199);
+  color: #000;
+  transition: 0.6s;
+}
+#what .bottom .icon2 a i:hover {
+  background-color: #f5a637;
+  color: #fff;
+}
+
+#event {
+  padding: 3rem 0;
+}
+#event .top h5 {
+  font-size: 30px;
+}
+#event .top p {
+  color: rgb(103, 103, 103);
+  font-size: 18px;
+  margin-top: 12px;
+}
+#event .bottom {
+  padding: 14rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://yevgenysim-turkey.github.io/touche/assets/img/8.jpg);
+}
+#event .bottom p {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 10px;
+}
+#event .bottom .A {
+  margin-top: 50px;
+}
+#event .bottom .A a {
+  padding: 20px 40px;
+  color: #fff;
+  border: 1px solid #f5a637;
+  font-size: 13px;
+  transition: 0.6s;
+}
+#event .bottom .A a:hover {
+  color: #f5a637;
+}/*# sourceMappingURL=style.css.map */
